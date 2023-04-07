@@ -16,7 +16,7 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 #title{
     width: 100%;
-    background-image: url("https://iitr.ac.in/sfme2022/img/IITR_JT.jpg");
+    background-image: url("https://images.ctfassets.net/w58jpvtm8bul/2RRnYA2r0TDH9xH9JVZjDO/4dd3f1c932ddb6143949b2816c00323a/Enactus.jpg?w=1800&q=90");
     background-repeat: no-repeat;
     background-size:contain;
     
@@ -25,7 +25,7 @@ html{
 body{
     font-family: 'Montserrat';
     height: 40%;
-    
+
 }
 h3{
     font-family: 'Montserrat';
@@ -35,7 +35,7 @@ h3{
 .icons{
     margin-top :10%;
     font-size: 50px;
-    color:#EF8172;
+    color:#F8C246;
     
 }
 .carousel-item {
@@ -46,7 +46,7 @@ h3{
     margin:40px 20px;
 }
 .icons:hover{
-    color:#ED3D5F;
+    color:#EF8172;
 }
 .card{
     text-align: center;
@@ -67,6 +67,9 @@ h3{
 }
 button{
     margin: auto;
+}
+.nav-link{
+    font-weight: bolder;
 }
 #Heading{
     font-family: 'Montserrat';
@@ -114,18 +117,25 @@ li{
     background-color: white;
     z-index: 1;
 }
-
+iframe{
+    position: relative;
+    bottom: 260px;
+}
+.sr-only{
+    color : black;
+}
+.img1{
+    float: left;
+    border-radius:40%;
+    height: 200px;
+}
 .testimonials{
+    padding: 100px;
     position: relative;
     bottom: 270px;
     font-family: 'Montserrat';
-    background-color: darkgrey;
-    color :#fff;
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210810/pngtree-dark-red-abstract-smoke-cloud-dark-color-background-image_759871.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(47, 21, 21);
- 
+    color : white;
+    background-color: #F8C246;
     font-weight: bold;
     text-align: center;
     margin-bottom : 30px;
